@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int n,i,low,high,mid,key,arr[100];
+	printf("Enter the size of array:");
+	scanf("%d",&n);
+	printf("Enter the elements");
+	for(i=0;i<n;i++)
+	scanf("%d",arr[i]);
+	printf("Enter the value to find n:");
+	scanf("%d",&key);
+	low=0;
+	high=n-1;
+	mid=(low+high)/2;
+	while(low<=high)
+	return 0;
+}
